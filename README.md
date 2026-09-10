@@ -1,8 +1,12 @@
 # FXMacroData for DeerFlow
 
-Use FXMacroData's always-free public USD catalogue, indicator history and release calendar in DeerFlow without an API key or account. This native extension supplies research tools to lead agents and subagents, with source citations and structured report artifacts.
+Connect your FXMacroData subscription to DeerFlow lead agents and subagents for cross-currency macro research, full available indicator histories and release-calendar analysis. Native tools provide source citations and structured artifacts for your research reports.
 
-It registers all 23 public REST operations and 49 hosted MCP tools, plus a composed USD macro brief. The [operation matrix](CAPABILITIES.md) lists every callable tool and its schema. Optional authenticated coverage uses your own process credentials.
+**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=deerflow_subscribe)** for access to covered non-USD datasets and full available history.
+
+Evaluate the extension before subscribing with public USD catalogue, recent indicator history and release-calendar access, which require no API key or account.
+
+It registers all 23 public REST operations and 49 hosted MCP tools, plus a composed USD macro brief. The [operation matrix](CAPABILITIES.md) lists every callable tool and its schema. Connect your subscription through your own process credentials.
 
 ## Install through DeerFlow
 
@@ -32,7 +36,7 @@ plugins:
 
 Use `make extension-disable NAME=fxmacrodata`, `make extension-enable NAME=fxmacrodata` or `make extension-remove NAME=fxmacrodata` to manage it. Restart after changing the installed or enabled set.
 
-## Optional credentials
+## Connect your subscription
 
 Set `FXMACRODATA_API_KEY` or `FXMD_API_KEY` in the DeerFlow process environment through your normal secret-management mechanism. The extension configuration accepts only `timeout_seconds` (1–120); keys are never model-visible arguments, extension settings or shared configuration. Each call reads the current process credential and closes its client/session afterward. A server-wide credential applies to that DeerFlow process; use separate deployments for separate account access.
 
