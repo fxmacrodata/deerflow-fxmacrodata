@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include CAPABILITIES.md
+include OPERATIONS.json
+include pyproject.toml
+include MANIFEST.in
+include PUBLIC_FILES.json
+include tests/transport_fixtures.py
+include deerflow_fxmacrodata/__init__.py
+include deerflow_fxmacrodata/tools.py
+include deerflow_fxmacrodata/response_safety.py
+include tests/test_extension.py

@@ -1,0 +1,16 @@
+{
+  "files": [
+    "CAPABILITIES.md",
+    "LICENSE",
+    "MANIFEST.in",
+    "OPERATIONS.json",
+    "PUBLIC_FILES.json",
+    "README.md",
+    "deerflow_fxmacrodata/__init__.py",
+    "deerflow_fxmacrodata/tools.py",
+    "deerflow_fxmacrodata/response_safety.py",
+    "pyproject.toml",
+    "tests/test_extension.py",
+    "tests/transport_fixtures.py"
+  ]
+}
