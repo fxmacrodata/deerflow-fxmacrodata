@@ -2,7 +2,7 @@
 
 Connect your FXMacroData subscription to DeerFlow lead agents and subagents for cross-currency macro research, full available indicator histories and release-calendar analysis. Native tools provide source citations and structured artifacts for your research reports.
 
-**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=deerflow_subscribe)** for access to covered non-USD datasets and full available history.
+**[Subscribe to FXMacroData](https://fxmacrodata.com/subscribe?utm_source=github&utm_medium=referral&utm_campaign=deerflow-fxmacrodata&utm_content=subscribe)** for access to covered non-USD datasets and full available history.
 
 Evaluate the extension before subscribing with public USD catalogue, recent indicator history and release-calendar access, which require no API key or account.
 
@@ -50,4 +50,4 @@ Date ranges, pagination, timestamp fields and source metadata retain their publi
 
 Registration makes no network requests. Credential redaction occurs before tool messages, artifacts or errors reach the model. The extension emits no telemetry; static campaign tags appear only on website links.
 
-[FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=deerflow_readme) · [Public API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=open_source_integrations&utm_content=deerflow_docs)
+[FXMacroData](https://fxmacrodata.com/?utm_source=github&utm_medium=referral&utm_campaign=deerflow-fxmacrodata&utm_content=readme) · [Public API reference](https://fxmacrodata.com/documentation/reference?utm_source=github&utm_medium=referral&utm_campaign=deerflow-fxmacrodata&utm_content=docs)
