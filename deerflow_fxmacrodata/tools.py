@@ -26,7 +26,7 @@ class FXMacroDataClient(_PublicClient):
 
 
 SITE_URL = (
-    "https://fxmacrodata.com/?utm_source=deerflow&utm_medium=integration&utm_campaign=open_source_integrations&utm_content=deerflow_extension"
+    "https://fxmacrodata.com/?utm_source=deerflow&utm_medium=integration&utm_campaign=deerflow-fxmacrodata&utm_content=app"
 )
 GUIDANCE = (
     "Discover indicator slugs with fxmd_data_catalogue before querying history. "

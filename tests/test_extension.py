@@ -164,8 +164,8 @@ def test_native_runtime_attribution_identifies_deerflow(tools, transport, name, 
         assert parse_qs(url.query) == {
             "utm_source": ["deerflow"],
             "utm_medium": ["integration"],
-            "utm_campaign": ["open_source_integrations"],
-            "utm_content": ["deerflow_extension"],
+            "utm_campaign": ["deerflow-fxmacrodata"],
+            "utm_content": ["app"],
         }
 
 
